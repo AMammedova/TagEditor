@@ -1,0 +1,43 @@
+.tag-editor{
+    width: 60%;
+    list-style-type: none;
+    padding: 0 5px 0 0;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #eee;
+    cursor: text;
+    font: normal 14px sans-serif;
+   
+    line-height: 20px;
+    
+}
+.tag{
+    display: inline-block;  
+    color: #46799b;
+    background: #b0b2b3;
+    padding: 5px 15px;
+    margin: 5px 5px;
+   
+}
+.tag-editor-tag{
+    display: inline-block;
+   
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px 0 0 2px;
+}
+
+.del{
+    margin-top: 0;
+}
+.inputElement{
+    border: none;
+    outline: none;
+   height: 5vh;
+}
+.xmark{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+}
